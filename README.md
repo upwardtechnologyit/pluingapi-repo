@@ -43,7 +43,9 @@ Gli script copiano JAR e POM nel repository Maven locale `~/.m2/repository` senz
 
 ## Pubblicazione online
 
-Il repository include una cartella `maven-repo/` gia pronta da pubblicare con GitHub Pages/Nginx/S3. Vedi `DEPLOY_MAVEN_REPO.md`.
+Il repository include una cartella `docs/` che contiene il repository Maven statico.
+
+Per GitHub Pages usa **Settings → Pages → Deploy from a branch → `main` / `/docs`**. Non serve un workflow Pages personalizzato. Vedi `DEPLOY_MAVEN_REPO.md`.
 
 ## Reference Plugin
 

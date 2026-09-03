@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <corePomSnippet>
-
     <properties>
         <upward.plugin.api.version>1.0.0</upward.plugin.api.version>
     </properties>
 
-    <dependencies>
+    <repositories>
+        <repository>
+            <id>upward-plugin-api</id>
+            <name>Upward Technology Plugin API</name>
+            <url>https://upwardtechnologyit.github.io/pluingapi-repo/</url>
+            <releases><enabled>true</enabled></releases>
+            <snapshots><enabled>false</enabled></snapshots>
+        </repository>
+    </repositories>
 
+    <dependencies>
         <dependency>
             <groupId>it.upwardtechnology.gestionale</groupId>
             <artifactId>upward-plugin-api</artifactId>
             <version>${upward.plugin.api.version}</version>
         </dependency>
-
     </dependencies>
-
 </corePomSnippet>
