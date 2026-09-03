@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<corePomSnippet>
+
+    <properties>
+        <upward.plugin.api.version>1.0.0</upward.plugin.api.version>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>it.upwardtechnology.gestionale</groupId>
+            <artifactId>upward-plugin-api</artifactId>
+            <version>${upward.plugin.api.version}</version>
+        </dependency>
+
+    </dependencies>
+
+</corePomSnippet>
